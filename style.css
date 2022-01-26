@@ -1,0 +1,164 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.main {
+  display: flex;
+}
+
+.ul {
+  list-style-type: none;
+}
+
+.a {
+  text-decoration: none;
+}
+
+.aside {
+  padding-top: 38px;
+  background: #1b4342;
+  max-width: 101px;
+  width: 100%;
+  text-align: center;
+}
+
+.aside__li {
+  margin-bottom: 45px;
+}
+
+.container {
+  max-width: 1202px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header {
+  background: #1b4342;
+  padding: 26px 0;
+}
+
+.header_ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.header_li:not(:last-of-type) {
+  margin-right: 49px;
+}
+
+.gallery_flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 26px;
+}
+
+.title {
+  font-family: Montserrat;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 55px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #1b4342;
+}
+
+.name {
+  color: #ffff;
+  font-weight: bold;
+}
+
+.btn {
+  border: none;
+  background: #1b4342;
+  border-radius: 50px;
+  width: 226px;
+  padding: 15px 0;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #ffff;
+  cursor: pointer;
+}
+
+.gallery_grid {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 35px;
+}
+
+.gallery_item {
+  position: relative;
+}
+
+.img {
+  box-sizing: border-box;
+  border-radius: 15px;
+  box-shadow: 5%;
+  width: 450px;
+  height: 350px;
+  width: 100%;
+}
+
+.gallery_item:hover .gallery_item_abs {
+  display: flex;
+  cursor: pointer;
+  box-sizing: border-box;
+  border-radius: 15px;
+  box-shadow: 5%;
+}
+
+.gallery_item_abs {
+  position: absolute;
+  background: rgba(35, 35, 35, 0.58);
+  color: #fff;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 49px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+.info {
+  display: block;
+  text-align: center;
+}
+
+.p {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.button {
+  background: none;
+  border: none;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  color: #fff;
+  cursor: pointer;
+}
